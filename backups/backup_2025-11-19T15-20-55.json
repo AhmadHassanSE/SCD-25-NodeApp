@@ -1,0 +1,16 @@
+{
+  "timestamp": "2025-11-19T15:20:55.454Z",
+  "totalRecords": 2,
+  "records": [
+    {
+      "_id": "691de031f3bf2c34192e1a64",
+      "name": "Ahmad Hassan",
+      "created": "2025-11-19"
+    },
+    {
+      "_id": "691de044f3bf2c34192e1a66",
+      "name": "Sameer Mufti",
+      "created": "2025-11-19"
+    }
+  ]
+}

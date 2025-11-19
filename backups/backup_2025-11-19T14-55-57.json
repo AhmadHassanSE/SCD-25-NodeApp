@@ -1,0 +1,26 @@
+{
+  "timestamp": "2025-11-19T14:55:57.938Z",
+  "totalRecords": 4,
+  "records": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "created": "2024-01-15"
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "created": "2024-01-20"
+    },
+    {
+      "id": 3,
+      "name": "Alice Johnson",
+      "created": "2024-02-01"
+    },
+    {
+      "id": 4,
+      "name": "Ahmad Hassan",
+      "created": "2025-11-19"
+    }
+  ]
+}

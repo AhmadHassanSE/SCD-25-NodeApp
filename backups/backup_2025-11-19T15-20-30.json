@@ -1,0 +1,16 @@
+{
+  "timestamp": "2025-11-19T15:20:30.160Z",
+  "totalRecords": 2,
+  "records": [
+    {
+      "_id": "691de031f3bf2c34192e1a64",
+      "name": "Ahmad Hassan",
+      "created": "2025-11-19"
+    },
+    {
+      "_id": "691de03ef3bf2c34192e1a65",
+      "name": "Hayyan Faisal",
+      "created": "2025-11-19"
+    }
+  ]
+}
