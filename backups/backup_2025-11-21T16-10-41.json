@@ -1,0 +1,16 @@
+{
+  "timestamp": "2025-11-21T16:10:41.588Z",
+  "totalRecords": 2,
+  "records": [
+    {
+      "_id": "6920898f63f079705b1605bf",
+      "name": "ahmad",
+      "created": "2025-11-21"
+    },
+    {
+      "_id": "69208f0123b1705eced22587",
+      "name": "moosa",
+      "created": "2025-11-21"
+    }
+  ]
+}

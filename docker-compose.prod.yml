@@ -1,0 +1,32 @@
+services:
+  backend:
+    image: ahmadhassan11111/scd-project-backend:v2.0
+    container_name: production-backend
+    ports:
+      - "3000:3000"
+    environment:
+      - MONGO_URI=mongodb://mongodb:27017/vaultdb
+    networks:
+      - app-network
+    volumes:
+      - backups:/app/backups
+    depends_on:
+      - mongodb
+    restart: unless-stopped
+
+  mongodb:
+    image: mongo:latest
+    container_name: production-mongodb
+    networks:
+      - app-network
+    volumes:
+      - mongodb_data:/data/db
+    restart: unless-stopped
+
+volumes:
+  mongodb_data:
+  backups:
+
+networks:
+  app-network:
+    driver: bridge
